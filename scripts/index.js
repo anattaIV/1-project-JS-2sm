@@ -1,4 +1,3 @@
-// Получаем элементы DOM
 const cardTitleInput = document.getElementById('card-title');
 const addCardButton = document.getElementById('add-card');
 const cardContainer = document.getElementById('card-container');
