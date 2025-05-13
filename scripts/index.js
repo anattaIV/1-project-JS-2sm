@@ -20,11 +20,11 @@ function createCard(title) {
   cardDiv.appendChild(deleteButton);
 
   likeButton.addEventListener('click', function() {
-    cardDiv.classList.toggle('liked'); // добавление класса
+    cardDiv.classList.toggle('liked'); 
   });
 
   deleteButton.addEventListener('click', function() {
-    cardDiv.remove(); //кикает карту
+    cardDiv.remove(); 
   });
 
   return cardDiv;
